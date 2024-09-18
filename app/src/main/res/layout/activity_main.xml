@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#B8C1FF">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My first app"
+        android:textColor="#424242"
+        android:textSize="40dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/getMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF8A3F"
+        android:onClick="getMessage"
+        android:text="Get a message!"
+        android:textSize="50sp">
+    </Button>
+
+    <Button
+        android:id="@+id/changeTitleColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF8A3F"
+        android:onClick="changeTitleColor"
+        android:text="change my text color!"
+        android:textSize="50sp">
+    </Button>
+
+    <Button
+        android:id="@+id/changeBgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AEFFCC"
+        android:onClick="changeBackground"
+        android:text="change the background color!"
+        android:textSize="50sp">
+    </Button>
+
+    <Button
+        android:id="@+id/changeSelfColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AEFFCC"
+        android:onClick="changeColor"
+        android:text="change my color!"
+        android:textSize="50sp">
+    </Button>
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#EF8A3F"
+        android:onClick="exitApp"
+        android:text="exit the app"
+        android:textSize="50sp">
+    </Button>
+
+
+</LinearLayout>
